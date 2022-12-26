@@ -1,8 +1,21 @@
-const Product = () => {
+import "./Product.css";
+
+const Product = ({ id, title, price, rating }) => {
   return (
-    <>
-      <h1>Products</h1>
-    </>
+    <div className="product">
+      <div className="product__info">
+        <p>{title}</p>
+        <p className="product__price">{price}</p>
+        <div className="product__rating">
+          {Array(rating)
+            .fill()
+            .map(() => (
+              <p>*</p>
+            ))}
+        </div>
+      </div>
+      <button>Add to basket</button>
+    </div>
   );
 };
 

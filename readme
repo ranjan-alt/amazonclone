@@ -1,1 +1,6 @@
+till second commit
 
+
+sending data dynamically using props in <product title="this is main title>
+destructure the object in product.js
+Array.fill() and Array.map method for rating
