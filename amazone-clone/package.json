@@ -11,7 +11,9 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
+    "react-currency-format": "^1.1.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -38,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.31.11"
+  },
+  "proxy": "https://ranjan-alt-curly-giggle-6w59w46q49x249q5-3000.preview.app.github.dev/"
 }
